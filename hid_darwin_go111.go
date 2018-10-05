@@ -1,4 +1,4 @@
-// +build go1.10,darwin
+// +build go1.11,darwin
 
 package hid
 
@@ -12,4 +12,4 @@ var nilCfStringRef C.CFStringRef= 0
 var nilCfTypeRef C.CFTypeRef = 0
 var nilCfSetRef C.CFSetRef = 0
 var nilIOHIDDeviceRef C.IOHIDDeviceRef = 0
-var nilCfDictionaryRef C.CFTypeRef = nil
+var nilCfDictionaryRef C.CFTypeRef = 0
